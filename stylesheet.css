@@ -14,6 +14,14 @@ h4 {
   margin-bottom: 5px;
 }
 
+div.blurb {
+  max-width: 400px;
+  margin: 10px auto 15px auto;
+  background-color: #eee;
+  padding: 5px;
+}
+
+
 table#hours {
   margin: auto;
 }
@@ -27,4 +35,10 @@ table#hours {
 
   td {
     text-align: left;
+  }
+
+@media only screen and (max-device-width: 480px) {
+    #container {
+      max-width: 450;
+    }
   }
