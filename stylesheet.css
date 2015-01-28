@@ -35,12 +35,12 @@ h4 {
            order: 2;
 }
 
-  @media all and (max-width: 640px) {
+  @media all and (max-width: 800px) {
 
    #container {
     -webkit-flex-flow: column;
             flex-flow: column;
-            flex-direction: column;
+       flex-direction: column;
    }
 
    #container > #left {
