@@ -14,41 +14,6 @@ h4 {
   margin-bottom: 5px;
 }
 
-#container {
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-flex-flow: row;
-          flex-flow: row;
-}
-
-#left {
-  -webkit-flex: 2 1 60%;
-           flex: 2 1 60%;
-   -webkit-order: 1;
-           order: 1;
-}
-
-#right {
-  -webkit-flex: 1 2 40%;
-           flex: 1 2 40%;
-   -webkit-order: 2;
-           order: 2;
-}
-
-  @media all and (max-width: 800px) {
-
-   #container {
-    -webkit-flex-flow: column;
-            flex-flow: column;
-       flex-direction: column;
-   }
-
-   #container > #left {
-    -webkit-order: 0;
-            order: 0;
-   }
-  }
-
 table#hours {
   margin: auto;
 }
