@@ -14,7 +14,13 @@ h1 {
   margin: auto;
 }
 
-  #hours.th {
+  #hours > tbody > th {
     color: #79c3bb;
     font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  #hours > tbody > td {
+    text-align: left;
   }
