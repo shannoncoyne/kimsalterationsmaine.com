@@ -4,40 +4,39 @@
 
 body {
   margin: 0;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 14pt;
   color: #696c71;
 }
 
 #header {
-  text-align: left;
-  width: 500px;
+  max-width: 500px;
   margin: auto;
   height: 125px;
 }
 
 #header img {
   float: left;
-  padding: 5px 15px 0 0;
+  padding: 0px 15px 0 0;
+}
+
+#header h1 {
+  padding-top: 5px;
+  margin-bottom: 0;
+  color: #ff5d60;
+  font-size: 28pt;
 }
 
 #header span {
-  padding-top: 4px;
+  padding-top: 0px;
   display: block;
-}
-
-#kims_alterations {
-  margin-top: 15px;
-  color: #ff5d60;
-  font-size: 28pt;
 }
 
 div.blurb {
   width: 100%;
   background-color: #eee;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 div.blurb p {
@@ -47,7 +46,8 @@ div.blurb p {
 }
 
 h2 {
-  margin: 10px;
+  margin: 15px;
+  text-align: center;
 }
 
 table#hours {
@@ -65,12 +65,12 @@ table#hours {
     text-align: left;
   }
 
+.google_maps iframe {
+  width: 100%;
+}
+
 @media only screen and (max-device-width: 480px) {
     #container {
       max-width: 450;
     }
   }
-
-.google_maps iframe {
-  width: 100%;
-}
