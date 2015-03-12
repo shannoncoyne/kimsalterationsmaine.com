@@ -12,7 +12,7 @@ body {
 #header {
   max-width: 600px;
   margin: auto;
-  height: 160px;
+  min-height: 160px;
 }
 
 #header img {
