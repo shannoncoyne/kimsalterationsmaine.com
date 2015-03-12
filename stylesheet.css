@@ -37,6 +37,7 @@ div.blurb {
   width: 100%;
   background-color: #eee;
   padding: 10px;
+  margin: 10px;
 }
 
 div.blurb p {
