@@ -10,9 +10,9 @@ body {
 }
 
 #header {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
-  height: 125px;
+  height: 160px;
 }
 
 #header img {
@@ -21,7 +21,7 @@ body {
 }
 
 #header h1 {
-  padding-top: 5px;
+  padding-top: 30px;
   margin-bottom: 0;
   color: #ff5d60;
   font-size: 28pt;
