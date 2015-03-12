@@ -5,26 +5,49 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
   color: #696c71;
 }
 
-h1 {
-  color: #ff5d60;
+#header {
+  text-align: left;
+  width: 500px;
+  margin: auto;
+  height: 125px;
 }
 
-h4 {
-  margin-bottom: 5px;
+#header img {
+  float: left;
+  padding: 5px 15px 0 0;
+}
+
+#header span {
+  padding-top: 4px;
+  display: block;
+}
+
+#kims_alterations {
+  margin-top: 15px;
+  color: #ff5d60;
+  font-size: 28pt;
 }
 
 div.blurb {
-  max-width: 400px;
-  margin: 10px auto 15px auto;
+  width: 100%;
   background-color: #eee;
-  padding: 5px;
+  padding: 10px;
 }
 
+div.blurb p {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+h2 {
+  margin: 10px;
+}
 
 table#hours {
   margin: auto;
@@ -46,3 +69,7 @@ table#hours {
       max-width: 450;
     }
   }
+
+.google_maps iframe {
+  width: 100%;
+}
